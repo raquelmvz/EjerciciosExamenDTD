@@ -12,7 +12,7 @@
 <!ATTLIST version licencia IDREF #REQUIRED>   
 <!ATTLIST version fechaPublicacion CDATA #REQUIRED> ]> 
 
-/* esta mal */
+<!--ESTA MAL-->
 
 <softwareLibre>   
 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!--FALTA LA DTD-->
+
+<cartelera>
+
+	<peliculas>
+
+		<pelicula>
+			<titulo>La invencion de Hugo</titulo>
+			<anyo>2011</anyo>
+			<directores>
+				<director>Martin Scorsese</director>
+
+			</directores>
+
+			<id>20097</id>
+		</pelicula>
+
+		<pelicula>
+			<titulo>John Carter</titulo>
+			<anyo>2012</anyo>
+			<directores>
+				<director>Andrew Stanton</director>
+
+			</directores>
+
+			<id>322587</id>
+		</pelicula>
+
+		<pelicula>
+			<titulo>Intocable</titulo>
+			<anyo>2011</anyo>
+			<directores>
+				<director>Olivier Nakache</director>
+			</directores>
+
+			<id>688879</id>
+		</pelicula>
+
+	</peliculas>
+
+
+	<cines>
+
+		<cine>
+
+			<nombre></nombre>
+			<sala></sala>
+			<pelicula></pelicula>
+			<sesiones>
+				<sesion></sesion>
+				<sesion></sesion>
+				<sesion></sesion>
+			</sesiones>
+
+		</cine>
+
+
+		<cine>
+
+			<nombre></nombre>
+			<sala></sala>
+			<pelicula></pelicula>
+			<sesiones>
+				<sesion></sesion>
+				<sesion></sesion>
+				<sesion></sesion>
+			</sesiones>
+
+		</cine>
+
+
+		<cine>
+
+			<nombre></nombre>
+			<sala></sala>
+			<pelicula></pelicula>
+			<sesiones>
+				<sesion></sesion>
+				<sesion></sesion>
+				<sesion></sesion>
+			</sesiones>
+
+		</cine>
+
+	</cines>
+
+</cartelera>
+

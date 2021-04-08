@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!--FALTA LA DTD Y RELLENAR LOS DATOS-->
+
+<cartelera>
+
+	<peliculas>
+
+		<pelicula id="peli1" titulo="La invencion de Hugo" anyo="" director=""/>
+
+		<pelicula id="peli2" titulo="" anyo="" director=""/>
+
+		<pelicula id="peli3" titulo="" anyo="" director=""/>
+
+	</peliculas>
+
+
+	<cines>
+
+		<cine nombre="" sala="" pelicula="peli1" sesiones="18:00 20:25 22:50"/>
+
+	</cines>
+
+</cartelera>
+
