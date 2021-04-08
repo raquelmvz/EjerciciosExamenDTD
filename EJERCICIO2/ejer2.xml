@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pedidos [
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido (dia, hora, cantidad, proveedor, pintura)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT proveedor (nombre, domicilio, telefonos)>
+<!ATTLIST proveedor cif ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT telefonos (telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT pintura ((marca,color)|(color,marca))>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+
+]>
+
+<pedidos>
+
+	<pedido>
+
+		<dia>20/03/2021</dia>
+		<hora>10:38</hora>
+		<cantidad>4</cantidad>
+		<proveedor cif="_7516985">
+			<nombre>Luis Gomez</nombre>
+			<domicilio>Calle Navarro</domicilio>
+			<telefonos>
+				<telefono>987465213</telefono>
+			</telefonos>
+		</proveedor>
+
+		<pintura>
+			<marca>Dupont</marca>
+			<color>Verde</color>
+		</pintura>
+
+	</pedido>
+
+
+	<pedido>
+
+		<dia>15/02/2021</dia>
+		<hora>19:38</hora>
+		<cantidad>8</cantidad>
+		<proveedor cif="_7879455">
+			<nombre>Fernando Lopez</nombre>
+			<domicilio>Avenida Salamanca</domicilio>
+			<telefonos>
+				<telefono>987454123</telefono>
+			</telefonos>
+		</proveedor>
+
+		<pintura>
+			<marca>Bruger</marca>
+			<color>Azul</color>
+		</pintura>
+
+	</pedido>
+
+</pedidos>
+
