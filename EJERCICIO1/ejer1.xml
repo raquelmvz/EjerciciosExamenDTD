@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "ejer1.dtd">
+
+<personas>
+	<persona>
+
+		<nombre>Juan Pardo</nombre>
+
+		<nacimiento dia="10" mes="Abril" anyo="1982"/>
+
+		<direcciones>
+			<direccion>
+				<calle>Caoba, 1</calle>
+				<poblacion>Madrid</poblacion>
+				<provincia>Madrid</provincia>
+				<cpostal>28005</cpostal>
+			</direccion>
+
+		</direcciones>
+
+		<varon/>
+
+	</persona>
+
+
+	<persona>
+
+		<nombre>Lucia Sanchez</nombre>
+
+		<nacimiento dia="04" mes="Mayo" anyo="1997"/>
+
+		<direcciones>
+			<direccion>
+				<calle>Los Angeles</calle>
+				<poblacion>Marbella</poblacion>
+				<provincia>Malaga</provincia>
+				<cpostal>29610</cpostal>
+			</direccion>
+
+			<direccion>
+				<calle>Los Angeles</calle>
+				<poblacion>Marbella</poblacion>
+				<provincia>Malaga</provincia>
+				<cpostal>29610</cpostal>
+			</direccion>
+
+			<direccion>
+				<calle>Antonio Machado</calle>
+				<poblacion>Estepona</poblacion>
+				<provincia>Malaga</provincia>
+				<cpostal>29687</cpostal>
+			</direccion>
+
+		</direcciones>
+
+		<mujer/>
+
+	</persona>
+
+</personas>
