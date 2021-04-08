@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE cartelera [
+	<!ELEMENT cartelera ((peliculas,cines)|(cines,peliculas))>
+	<!ELEMENT peliculas (pelicula+)>
+	<!ELEMENT pelicula EMPTY>
+	<!ATTLIST pelicula
+		id ID #REQUIRED 
+		titulo CDATA #REQUIRED
+		anyo CDATA #REQUIRED
+		director CDATA #REQUIRED>
+	<!ELEMENT cines (cine+)>
+	<!ELEMENT cine EMPTY>
+	<!ATTLIST cine
+		nombre CDATA #REQUIRED 
+		sala CDATA #REQUIRED
+		pelicula IDREF #REQUIRED
+		sesiones CDATA #REQUIRED>
+]>
 
-<!--FALTA LA DTD Y RELLENAR LOS DATOS-->
+
+<!--FALTAN DATOS Y COMPLETAR BIEN DTD-->
 
 <cartelera>
 
