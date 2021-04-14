@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-
-<!--FALTA LA DTD-->
+<!DOCTYPE cartelera [
+<!ELEMENT cartelera ((peliculas, cines)|(cines,peliculas))>
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, anyo, director, id)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT cines (cine+)>
+<!ELEMENT cine (nombre, sala, peli, sesiones)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT sala (#PCDATA)>
+<!ELEMENT peli (#PCDATA)>
+<!ELEMENT sesiones (sesion+)>
+<!ELEMENT sesion (#PCDATA)>
+]>
 
 <cartelera>
 
@@ -9,32 +23,21 @@
 		<pelicula>
 			<titulo>La invencion de Hugo</titulo>
 			<anyo>2011</anyo>
-			<directores>
-				<director>Martin Scorsese</director>
-
-			</directores>
-
+			<director>Martin Scorsese</director>
 			<id>20097</id>
 		</pelicula>
 
 		<pelicula>
 			<titulo>John Carter</titulo>
 			<anyo>2012</anyo>
-			<directores>
-				<director>Andrew Stanton</director>
-
-			</directores>
-
+			<director>Andrew Stanton</director>
 			<id>322587</id>
 		</pelicula>
 
 		<pelicula>
 			<titulo>Intocable</titulo>
 			<anyo>2011</anyo>
-			<directores>
-				<director>Olivier Nakache</director>
-			</directores>
-
+			<director>Olivier Nakache</director>
 			<id>688879</id>
 		</pelicula>
 
@@ -44,44 +47,24 @@
 	<cines>
 
 		<cine>
-
-			<nombre></nombre>
-			<sala></sala>
-			<pelicula></pelicula>
+			<nombre>ABC El Saler</nombre>
+			<sala>Sala 6</sala>
+			<peli>La invención de Hugo</peli>
 			<sesiones>
-				<sesion></sesion>
-				<sesion></sesion>
-				<sesion></sesion>
+				<sesion>18:00</sesion>
+				<sesion>20:25</sesion>
+				<sesion>22:50</sesion>
 			</sesiones>
-
 		</cine>
 
-
 		<cine>
-
-			<nombre></nombre>
-			<sala></sala>
-			<pelicula></pelicula>
+			<nombre>Lys</nombre>
+			<sala>. Sala 3</sala>
+			<peli>John Carter</peli>
 			<sesiones>
-				<sesion></sesion>
-				<sesion></sesion>
-				<sesion></sesion>
+				<sesion>16:20</sesion>
+				<sesion>18:50</sesion>
 			</sesiones>
-
-		</cine>
-
-
-		<cine>
-
-			<nombre></nombre>
-			<sala></sala>
-			<pelicula></pelicula>
-			<sesiones>
-				<sesion></sesion>
-				<sesion></sesion>
-				<sesion></sesion>
-			</sesiones>
-
 		</cine>
 
 	</cines>

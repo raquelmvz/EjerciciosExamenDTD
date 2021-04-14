@@ -1,24 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cartelera [
-	<!ELEMENT cartelera ((peliculas,cines)|(cines,peliculas))>
-	<!ELEMENT peliculas (pelicula+)>
-	<!ELEMENT pelicula EMPTY>
-	<!ATTLIST pelicula
-		id ID #REQUIRED 
-		titulo CDATA #REQUIRED
-		anyo CDATA #REQUIRED
-		director CDATA #REQUIRED>
-	<!ELEMENT cines (cine+)>
-	<!ELEMENT cine EMPTY>
-	<!ATTLIST cine
-		nombre CDATA #REQUIRED 
-		sala CDATA #REQUIRED
-		pelicula IDREF #REQUIRED
-		sesiones CDATA #REQUIRED>
+<!ELEMENT cartelera ((peliculas, cines)|(cines,peliculas))>
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula
+	id ID #REQUIRED
+	titulo CDATA #REQUIRED
+	anyo CDATA #REQUIRED
+	director CDATA #REQUIRED>
+<!ELEMENT cines (cine+)>
+<!ELEMENT cine EMPTY>
+<!ATTLIST cine
+	nombre CDATA #REQUIRED
+	sala CDATA #REQUIRED
+	pelicula IDREF #REQUIRED
+	sesiones CDATA #REQUIRED>
 ]>
-
-
-<!--FALTAN DATOS Y COMPLETAR BIEN DTD-->
 
 <cartelera>
 
@@ -26,16 +23,18 @@
 
 		<pelicula id="peli1" titulo="La invencion de Hugo" anyo="" director=""/>
 
-		<pelicula id="peli2" titulo="" anyo="" director=""/>
+		<pelicula id="peli2" titulo="John Carter" anyo="2012" director="Andrew Stanton"/>
 
-		<pelicula id="peli3" titulo="" anyo="" director=""/>
+		<pelicula id="peli3" titulo="Intocable" anyo="2011" director="Olivier Nakache"/>
 
 	</peliculas>
 
 
 	<cines>
 
-		<cine nombre="" sala="" pelicula="peli1" sesiones="18:00 20:25 22:50"/>
+		<cine nombre="ABC El Saler" sala="6" pelicula="peli1" sesiones="18:00 20:25 22:50"/>
+
+		<cine nombre="Lys" sala="3" pelicula="peli2" sesiones="16:20 18:50"/>
 
 	</cines>
 
